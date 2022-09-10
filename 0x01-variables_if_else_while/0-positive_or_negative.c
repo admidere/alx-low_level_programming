@@ -5,25 +5,25 @@
 * main - print if the number is positive, zero or negative
 * description - using the main description
 * print one of all
-* return: o
+* return: 0
 */
 
 int main(void)
 {
-int s;
+int n;
 srand(time(0));
-s = rand() - RAND_MAX / 2;
-if(s > 0)
+n = rand() - RAND_MAX / 2;
+if (n > 0)
 {
-printf("%d is positive\n", s);
+printf("%d is positive\n", n);
 }
-else if(s == 0)
+else if (n == 0)
 {
-printf("%d is zero\n", s);
+printf("%d is zero\n", n);
 }
-else if(s<0)
+else if (n < 0)
 {
-printf("%d is negative\n", s);
+printf("%d is negative\n", n);
 }
 return (0);
 }
