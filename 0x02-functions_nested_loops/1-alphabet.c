@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * main -  prints the alphabet from a to z
- *
  * return: 0
  */ 
-
 void print_alphabet(void)
 {
 char c;
