@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _abs -  absolute value of an integer.
+* _abs  ->  absolute value of an integer.
 * @n: is the int that will use for the argument of the function
 * return: absolute value
 */
