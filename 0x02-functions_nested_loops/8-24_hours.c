@@ -11,9 +11,9 @@ void jack_bauer(void)
 	int h_r;
 	int m_r;
 
-	while (hours <= 23)
+	while (h <= 23)
 	{
-	while (minutes <= 59)
+	while (m <= 59)
 	{
 	m_r = m % 10;
 	h_r = h % 10;
