@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-* int _isalpha checks for alphabetic character if c is a letter, lowercase or uppercase
-* @c: is the int that will use for the argument of the function
-* Return: 0
+ *main - int _isalpha checks for alphabetic character if c is a letter, lowercase or uppercase
+ * @c: is the int that will use for the argument of the function
+ * Return: 0
 */
 int _isalpha(int c)
 {
