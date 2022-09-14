@@ -2,7 +2,7 @@
 /**
 * _abs -  absolute value of an integer.
 * @n: is the int that will use for the argument of the function
-* return: 0
+* return: absolute value
 */
 int _abs(int n)
 {
@@ -11,5 +11,5 @@ int _abs(int n)
 		return (n);
 	}
 	else
-	return (n*-1);
+	return (n * -1);
 }
