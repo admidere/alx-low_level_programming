@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *print_numbers - function
@@ -12,3 +13,4 @@ char c;
 for (c = '0'; c <= '9'; c++)
 putchar(c);
 }
+putchar(10);
