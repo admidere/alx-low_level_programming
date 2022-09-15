@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
-*_isdigit - function
+*mul - function
 *@a: function
 *@b: function
 *Return: mul
 */
-
 int mul(int a, int b)
 {
-	return (a * b);
+return (a * b);
 }
