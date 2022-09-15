@@ -1,9 +1,12 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
-*main - program that prints either number
+*main - program
+*or fizz or buzz or fizzBuzz
 *Return: 0
 */
+
 
 int main(void)
 {
