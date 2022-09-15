@@ -1,15 +1,17 @@
 #include "main.h"
+
 /**
-* isupper - function
-* @c: parameter
-* Return: 0 and 1
+*_isdigit - function
+*@c: function
+*Return: 1 if it is, 0 otherwise
 */
-int _isupper(int c)
+
+int _isdigit(int c)
 {
-if (c >= 48 && c <= 57)
-{
-return (1);
-}
-else
-return (0);
+	if ((c >= 48) && (c <= 57))
+	{
+		return (1);
+	}
+
+	return (0);
 }
