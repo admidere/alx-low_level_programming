@@ -3,7 +3,7 @@
 /**
 * _isupper - function
 * @c: parameter
-* Return: Always 0.
+* Return: 0 and 1
 */
 int _isupper(int c)
 {
