@@ -2,20 +2,28 @@
 #include "main.h"
 
 /**
- * puts2 - prints reveres character
- * @str: parameter
+ * rev_string - prints revers string
+ * @s: parameter s
  * Return: nothing
  */
 
-void puts2(char *str)
+void rev_string(char *s)
 {
-	int c = 0;
+	char tmp;
+	int l; i; j;
 
-	while (*(str + c) != '\0')
+	i = 0;
+	j = 0;
+
+	while(s[i] != '\0')
+	i++;
+
+	j = i-1;
+	for (l = 0; l < i / 2; l++)
 	{
-		if (c % 2 == 0)
-			putchar(*(str + c));
-		c++;
+		tmp = s[l];
+		s[l] = s[j];
+		s[j] =tmp;
+		j -= 1;
 	}
-	putchar(10);
 }
