@@ -1,16 +1,15 @@
-#include "main.h"                                                                                                                       
+#include "main.h"
 
-#include <stdio.h>                                                                                                                      
+#include <stdio.h>
+                                                                                                                
 /**                                                                                                                                     
-* reset_to_98 - function called by main                                                                                                
-* @n: parameter                                                                                                                        
-*                                                                                                                                      
-*/                                                                                                                                     
+* reset_to_98 - function called by main
+* @n: parameter                                                                                                          
+*/
 
-void reset_to_98(int *n)                                                                                                                
+void reset_to_98(int *n)
+{
 
-{                                                                                                                                       
-
-*n = 98;                                                                                                                    
+*n = 98;
 
 }
