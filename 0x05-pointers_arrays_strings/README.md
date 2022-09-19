@@ -1,0 +1,1 @@
+we are going do  C - Pointers, arrays and strings
