@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* void swap_int - called function
+* swap_int - called function
 * @a: first parameter
 * @b: second parameter
 * replace intiger use pointer
