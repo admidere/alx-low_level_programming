@@ -5,6 +5,7 @@
 * _strncpy - function
 * @dest: destination parameter
 * @src; source parameter
+* @n: n parameter
 * returns: dest
 */
 
