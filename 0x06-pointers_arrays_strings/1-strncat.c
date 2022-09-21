@@ -5,6 +5,7 @@
 * _strncat - calling function
 * @dest: destination parameter
 * @src: source parameter
+* @n: n parameter
 * Return: destination
 */
 
