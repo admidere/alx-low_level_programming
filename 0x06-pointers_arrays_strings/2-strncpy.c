@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-_strncpy - function
+* _strncpy - function
 * @dest: destination parameter
 * @src; source parameter
 * returns: dest
