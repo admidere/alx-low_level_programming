@@ -1,11 +1,10 @@
 #include "main.h"
 #include <string.h>
-
 /**
-* _strcat - called function
-* @*dest: destination parameter
-* @*src: source function
-* return: destination
+* _strcat - calling function
+* @dest: destination parameter
+* @src: source parameter
+* return: dest
 */
 
 char *_strcat(char *dest, char *src)
