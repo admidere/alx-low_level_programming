@@ -3,9 +3,9 @@
 
 /**
 * _strcat - called function
-* @dest: destination parameter
-* @src: source function
-* return: a string
+* @*dest: destination parameter
+* @*src: source function
+* return: destination
 */
 
 char *_strcat(char *dest, char *src)
