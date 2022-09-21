@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-* *_strcat - called function
+* _strcat - called function
 * @dest: destination parameter
 * @src: source function
 * return: a string
