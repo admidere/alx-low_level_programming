@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
 * *_strcat - called function
@@ -10,16 +11,6 @@
 
 char *_strcat(char *dest, char *src)
 {
-    int len = 0;
-    while(dest[len])
-        len++;
-    for (i = 0; src[i] != '\0'; i++)
-    {
-        dest[len] = src[i];
-        len += i;
-    }
-    dest[len] = '\0';
-
-    return (dest);
-
+	strcat(dest, src);
+	return (dest);
 }
