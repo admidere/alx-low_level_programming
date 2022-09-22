@@ -2,11 +2,10 @@
 #include <string.h>
 
 /**
-* _strcmp - function
-* @s1: parameter
-* @s2: parameter
-* cmp
-*/
+*  _strcmp - Function which compare two strings and
+*@s1: first string
+*@s2:second string
+*Return: cmp
 
 int _strcmp(char *s1, char *s2)
 {
