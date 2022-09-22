@@ -1,30 +1,26 @@
 #include "main.h"
 
 /**
- * leet - capitalizes all first words in a string
- * @s: string to capitalize
- *
- * Return: address of s
+#include "main.h"
+
+/**
+ * leet - encodes a string into 1337
+ * @x: string
+ * Return: address x
  */
- char *leet(char *s)
- {
- 	int x = 0, y, z = 5;
+char *leet(char *x)
+{
+	int i, j;
+	char str[] = "aAeEoOtTlL";
+	char num[] = "4433007711";
 
-	char str[5] = {'A', 'E', 'O', 'T', 'L'};
-	char num[5] = {'4', '3', '0', '7', '1'};
-	
-	while (s[x])
+	for (i = 0; *(x + i); i++)
 	{
-		y = 0;
-		while (y < z)
+		for (j = 0; j <= 9; j++)
 		{
-			if (s[x] == str[y] || (s[x] - 32 == str[y])
-			s[x] = num(y);
-			y++;
+			if (str[j] == *(x + i))
+				*(x + i) = num[j];
 		}
-		x++;
 	}
-
-	return (s);
- }
- 
+	return (x);
+}
