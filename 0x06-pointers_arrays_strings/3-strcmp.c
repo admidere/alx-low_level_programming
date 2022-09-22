@@ -6,6 +6,7 @@
 *@s1: first string
 *@s2:second string
 *Return: cmp
+*/
 
 int _strcmp(char *s1, char *s2)
 {
