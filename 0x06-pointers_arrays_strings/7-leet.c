@@ -17,7 +17,7 @@
 	{
 		for (y = 0; y < 5; y++)
 		{
-			if (s[x] == str[y] || (s[x] == str[y] + 32)
+			if (s[x] == str[y] || (s[x] - 32 == str[y])
 			s[x] == num(y);
 		}
 		x++;
