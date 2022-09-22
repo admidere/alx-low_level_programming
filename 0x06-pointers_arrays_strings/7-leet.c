@@ -8,14 +8,14 @@
  */
  char *leet(char *s)
  {
- 	int x = 0, y;
+ 	int x = 0, y, z = 5;
 	
 	char str[5] = {'A', 'E', 'O', 'T', 'L'};
 	char num[5] = {'4', '3', '0', '7', '1'};
 	
 	while (s[x])
 	{
-		for (y = 0; y < 5; y++)
+		for (y = 0; y < z; y++)
 		{
 			if (s[x] == str[y] || (s[x] - 32 == str[y])
 			s[x] == num(y);
