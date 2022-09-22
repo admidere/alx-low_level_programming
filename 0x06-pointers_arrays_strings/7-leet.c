@@ -1,9 +1,6 @@
 #include "main.h"
 
 /**
-#include "main.h"
-
-/**
  * leet - encodes a string into 1337
  * @x: string
  * Return: address x
