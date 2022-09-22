@@ -15,10 +15,12 @@
 	
 	while (s[x])
 	{
-		for (y = 0; y < z; y++)
+		y = 0;
+		while (y < z)
 		{
 			if (s[x] == str[y] || (s[x] - 32 == str[y])
 			s[x] == num(y);
+			y++;
 		}
 		x++;
 	}
