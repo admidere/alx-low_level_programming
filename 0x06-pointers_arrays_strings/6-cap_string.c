@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper - changes all first word lowercase letters 
+ * cap_string - changes all first word lowercase letters 
  * to uppercase
  * @str: string to be changed
  * Return: address tp the string
