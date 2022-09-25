@@ -18,7 +18,10 @@ char *rot13(char *s)
 		for (j = 0; j <= 51; j++)
 		{
 			if (ipt[j] == *(s + i))
+			{
 				*(s + i) = out[j];
+				break;
+			}
 		}
 	}
 	return (s);
