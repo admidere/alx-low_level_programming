@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *rot13 - rot13 replacment
- *s: x parameter
- * Return: returns poiner to @s
+ * rot13 - encodes a string into rot13
+ * @s: string to encode
+ * Return: address of s
  */
 
 char *rot13(char *s)
