@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13 - encodes a string into rot13
+ * rot13 - function for replacment
  * @s: string to encode
  * Return: address of s
  */
