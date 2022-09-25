@@ -1,9 +1,8 @@
 #include "main.h"
-#include <string.h>
 
 /**
- *rot13 - concatenates  the string pointed to by @src to
- *x: String to be concatenated upon
+ *rot13 - rot13 replacment
+ *s: x parameter
  * Return: returns poiner to @s
  */
  
