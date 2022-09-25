@@ -5,7 +5,7 @@
  *s: x parameter
  * Return: returns poiner to @s
  */
- 
+
 char *rot13(char *s)
 {
     int i, j;
@@ -21,6 +21,5 @@ char *rot13(char *s)
 				*(s + i) = out[j];
 		}
 	}
-
 	return (s);
 }
