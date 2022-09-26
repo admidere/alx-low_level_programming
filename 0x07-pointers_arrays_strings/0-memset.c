@@ -4,7 +4,7 @@
 *_memset - function that fill the memory block
 *@s: address to memory block
 *@b: parameter
-*n: length of buffer
+*@n: length of buffer
 *Return: s
 */
 
