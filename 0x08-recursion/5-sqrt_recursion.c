@@ -1,6 +1,6 @@
  #include "main.h"
 /**
-* sqrt2 - Makes possible to evaluate 
+* sqrt2 - Makes possible to evaluate
 * from 1 to n
 * @x: x parameter
 * @y: y parameter
@@ -16,7 +16,7 @@ int sqrt2(int x, int y)
 }
 /**
 * _sqrt_recursion - returns the
-* natural square root of 
+* natural square root of
 * @n: Number Integer
 * Return: On success 1.
 */
