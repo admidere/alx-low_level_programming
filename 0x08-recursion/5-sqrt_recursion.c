@@ -12,7 +12,7 @@ int sqrt2(int x, int y)
 		return (y);
 	else if (y * y > x)
 		return (-1);
-	return (sqr2(x, y + 1));
+	return (sqrt2(x, y + 1));
 }
 /**
 * _sqrt_recursion - returns the
