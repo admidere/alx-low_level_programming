@@ -13,7 +13,6 @@ if (n <= 1)
 return (0);
 else
 return (prime_number2(n, 2));
-
 }
 
 /**
