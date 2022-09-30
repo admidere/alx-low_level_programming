@@ -4,21 +4,18 @@
 
 /**
 * main - prints the multiplication of two integers
-* @argc: argument count
-* @argv: argument vector
+* @argc: Count arguments
+* @argv: contains all the parameters
 * Return: 0 if true, 1 if false
 */
 int main(int argc, char *argv[])
 {
-int i;
-
-int result = 1;
-
-for (i = 1; i < argc; i++)
+int a, b;
+if (argc == 3)
 {
-result = result * argv[i];
-}
-printf("%d\n", result);
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+printf("%d\n", a *b);
 return (0);
 }
 printf("Error\n");
