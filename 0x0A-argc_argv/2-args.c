@@ -10,15 +10,9 @@
 
 int main(int argc, char *argv[])
 {
-
-int i = 0;
-
-if (argc > 0)
-{
-while (i < argc)
-{
-printf("%s\n", argv[i]);
-}
-return (0);
-}
+	int i;
+	for(i = 0; i < argc; i++)
+		printf("argv[%2d]: %s\n", i, argv[i]);
+	
+	return (0);
 }
