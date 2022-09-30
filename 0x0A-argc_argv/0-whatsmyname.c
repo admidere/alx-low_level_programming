@@ -3,8 +3,8 @@
 
 /**
 * main - Print the name of the program
-* @argc: Count arguments
-* @argv: Arguments
+* @argc: contains a total number of arguments
+* @argv: contains all the parameters.
 * Return: Always 0 (Success)
 */
 
