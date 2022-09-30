@@ -34,7 +34,7 @@ while (coins[x] != '\0')
 if (j >= coins[x])
 {
 y = (j / coins[x]);
-i += aux;
+i += y;
 j -= coins[x] * y;
 }
 
