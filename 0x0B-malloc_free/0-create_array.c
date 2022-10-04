@@ -3,14 +3,12 @@
 #include <stdlib.h>
 
 /**
-* create_array - creat an array of char
-* initialize with specfic character
-* @size: size of an array
-* @c: string parameter
-* return: array of string
-* return : null if size is 0
-* if it fails it will print NULL
+* create_array -> creating array function
+* @size: size of array
+* @c: character an array is initialized
+* Return: array of string
 */
+
 
 char *create_array(unsigned int size, char c)
 {
