@@ -39,7 +39,7 @@ return (NULL);
 for (k = 0; k < height; k++)
 {
 for (l = 0; l < width; l++)
-a[k][l] = 0;
+arr2d[k][l] = 0;
 }
 return (arr2d);
 }
