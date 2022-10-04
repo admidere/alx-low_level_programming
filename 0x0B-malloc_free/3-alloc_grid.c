@@ -16,7 +16,7 @@ int **arr2d;
 
 if (width <= 0 || height <= 0)
 return (NULL);
-a = malloc(height * sizeof(int *));
+arr2d = malloc(height * sizeof(int *));
 if (arr2d == NULL)
 {
 free(arr2d);
