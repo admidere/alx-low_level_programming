@@ -4,11 +4,11 @@
 #include <string.h>
 
 /**
-* _strdup - copy the string
-* @str: string parameter
-* return: the new string
-* null : if the string is null
+* _strdup -> string duplicator function
+* @str: string to be duplicated
+* Return: string the string
 */
+
 
 char *_strdup(char *str)
 {
