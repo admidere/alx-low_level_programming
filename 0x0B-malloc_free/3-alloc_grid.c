@@ -24,5 +24,7 @@ for (i = 0; i < width; i++)
 for (j = 0; j < height; j++)
 arr2d[i][j] = 0;
 }
+free(a);
 return (arr2d);
+return (0);
 }
