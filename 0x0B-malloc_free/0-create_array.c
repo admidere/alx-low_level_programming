@@ -4,6 +4,7 @@
 
 /**
 * create_array - creat an array of char
+* initialize with specfic character
 * @size: size of an array
 * @c: string parameter
 * return: array of string
