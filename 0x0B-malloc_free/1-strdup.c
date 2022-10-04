@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-/** 
+/**
 * _strdup - copy the string
 * @str: string parameter
 * return: the new string
