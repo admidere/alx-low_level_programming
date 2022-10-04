@@ -22,7 +22,7 @@ s2 = "";
 
 str1 = strlen(s1);
 str2 = strlen(s2);
-str3 = s1 + s2 + 1;
+str3 = str1 + str2 + 1;
 a = malloc(str3);
 
 if (a == NULL)
