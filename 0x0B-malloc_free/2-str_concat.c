@@ -28,13 +28,13 @@ a = malloc(str3);
 if (a == NULL)
 return (NULL);
 
-while(*s1 != '\0')
+while (*s1 != '\0')
 {
 a[i] = *s1;
 s1++;
 i++;
 }
-while(*s2 != '\0')
+while (*s2 != '\0')
 {
 a[i] = *s2;
 s2++;
