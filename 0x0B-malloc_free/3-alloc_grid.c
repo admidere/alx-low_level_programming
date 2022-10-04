@@ -16,7 +16,7 @@ if (width <= 0 || height <= 0)
 return (NULL);
 arr2d = malloc(width * height * sizeof(int));
 if (arr2d == NULL)
-free(a);
+free(arr2d);
 return (NULL);
 
 for (i = 0; i < width; i++)
