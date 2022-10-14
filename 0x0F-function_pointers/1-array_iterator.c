@@ -1,8 +1,7 @@
 #include "function_pointers.h"
 
 /**
-* array_iterator - executes a function given as a
-
+* array_iterator - executes a function
 * @array: array.
 * @size: size of the array.
 * @action: pointer
