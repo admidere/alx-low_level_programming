@@ -5,6 +5,8 @@
 /**
 * print_numbers - function print given numbers
 * @n: number of element
+* @separator:
+* @...:
 * return: sum
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
