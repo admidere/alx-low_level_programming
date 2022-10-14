@@ -1,12 +1,11 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
-
 /**
 * print_numbers - function print given numbers
 * @n: number of element
-* @separator:
-* @...:
+* @separator: string
+* @...: variable
 * return: sum
 */
 void print_numbers(const char *separator, const unsigned int n, ...)
