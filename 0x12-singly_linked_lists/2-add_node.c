@@ -8,26 +8,25 @@
 * @head: The main linked list
 * @str: The string to add to the node
 *
-* Return: NULL if it failed
+* Return: The address of the new list or NULL if it failed
 */
-
 list_t *add_node(list_t **head, const char *str)
 {
-list_t *newnode;
+list_t *temp;
 
 if (head != NULL && str != NULL)
 {
-newnode = malloc(sizeof(list_t));
-if (newnode == NULL)
+temp = malloc(sizeof(list_t));
+if (temp == NULL)
 return (NULL);
 
-newnode->str = strdup(str);
-newnode->len = _strlen(str);
-newnode->next = *head;
+temp->str = strdup(str);
+temp->len = _strlen(str);
+temp->next = *head;
 
-*head = newnode;
+*head = temp;
 
-return (newnode);
+return (temp);
 }
 
 return (0);
