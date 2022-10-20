@@ -51,7 +51,7 @@ return (NULL);
 */
 int _strlen(const char *s)
 {
-int c = 0;
+int count = 0;
 
 while (*s)
 {
