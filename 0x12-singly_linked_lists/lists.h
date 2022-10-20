@@ -12,7 +12,6 @@
 * @next: next node
 *
 * Description: singly linked list nodestructure
-
 */
 
 typedef struct list_s
