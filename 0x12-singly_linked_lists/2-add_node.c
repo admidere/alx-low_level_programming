@@ -33,7 +33,6 @@ return (0);
 /**
 * _strlen - length of a string
 * @s: The String to count
-*
 * Return: String length
 */
 int _strlen(const char *s)
