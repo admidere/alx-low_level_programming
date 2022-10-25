@@ -38,8 +38,7 @@ ptr->next = ptr2;
 i = 0;
 while (ptr != NULL)
 {
-ptr = ptr->link;
-ptr->n = n;
+printf("%d ", ptr->n);
+ptr = ptr->next;
 }
-return (ptr);
 }
