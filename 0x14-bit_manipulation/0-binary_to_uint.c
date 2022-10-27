@@ -1,13 +1,10 @@
 #include "main.h"
 
 /**
-* binary_to_uint - function that converts
-* a binary to decimal
-* @b: binary
-* return: converted number
-* fail - if binary if null and
-*/
-
+ * binary_to_uint - Entry Point
+ * @b: const char
+ * Return: decimal
+ */
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int decimal = 0;
