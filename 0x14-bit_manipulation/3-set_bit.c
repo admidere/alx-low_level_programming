@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * set_bit - Entry Point
- * @n: input
- * @index: index
- * Return: 0
- */
+* set_bit - Entry Point
+* @n: input
+* @index: index
+* Return: 1 if success
+*/
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int bits;
+unsigned long int bits;
 
-	if (n == NULL)
-		return (-1);
+if (n == NULL)
+return (-1);
 
-	bits = 1 << index;
+bits = 1 << index;
 
-	*n = *n | bits;
+*n = *n | bits;
 
-	return (1);
+return (1);
 }
