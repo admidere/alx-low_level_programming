@@ -11,12 +11,11 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int decimal = 0, base = 1, rem, num;
+	int decimal = 0, base = 1, rem;
 
-	if (b != 0 || b != 0 || b == NULL)
+	if (b != '0' || b != '0' || b == NULL)
 	return (0);
 
-	num = b;
 	while (b != 0)
 	{
 		rem = b % 10;
