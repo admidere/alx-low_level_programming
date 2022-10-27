@@ -11,19 +11,18 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int decimal = 0, base = 1, rem;
+	unsigned int decimal = 0;
+	int i;
 
-	if (b != "0" || b != "1" || b == NULL)
+	if (!b)
 	return (0);
 
-	while (b != 0)
+	for (i = 0; b[i] != '\0'; i++)
 	{
-		rem = b % 10;
-		decimal = decimal + rem * base;
-		b = b / 10;
-		base = base * 2;
+		if (b[i] < '0' || b[i] > '1')
+		return (0);
+		decimal = 2 * decimal + (b[i] - 48);
 	}
 
 	return (decimal);
-
 }
