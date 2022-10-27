@@ -1,4 +1,4 @@
-#include "main_h"
+#include "main.h"
 
 /**
 * binary_to_uint - function that converts
@@ -21,7 +21,7 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] < '0' || b[i] > '1')
 		return (0);
-		decimal = 2 * decimal + (b[i] - '0');
+		decimal = 2 * decimal + (b[i] - 48);
 	}
 
 	return (decimal);
