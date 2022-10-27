@@ -10,7 +10,6 @@
 */
 
 unsigned int binary_to_uint(const char *b)
-
 {
 unsigned int decimal = 0;
 int base = 1, i = 0;
