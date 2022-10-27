@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b)
 	if (b != '0' || b != '0' || b == NULL)
 	return (0);
 
-	while (b != 0)
+	while (b != '0')
 	{
 		rem = b % 10;
 		decimal = decimal + rem * base;
