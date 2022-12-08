@@ -6,33 +6,28 @@
 *@n: data
 *Return: new node
 */
-dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
-    dlistint_t *temp, *forward;
+	dlistint_t *new, *tmp;
 
-    if (head == NULL)
-    return (NULL);
-    temp = malloc(sizeof(dlistint_t))
-    if (temp == NULL)
-    return (NULL);
-
-    temp->next = NULL;
-    temp->prev = NULL;
-    temp->n = n;
-
-    if (*head == NULL)
-    {
-    temp->prev = NULL
-    *head = temp
-    return (temp)
-    }
-
-    forward = *head;
-    while (forward->next != NULL)
-    {
-    forward = forward->next
-    }
-    forward->next = temp;
-    temp->prev = forward
-    return (temp);
+	if (head == NULL)
+		return (NULL);
+	new = malloc(sizeof(dlistint_t));
+	if (new == NULL)
+		return (NULL);
+	new->n = n;
+	new->next = NULL;
+	new->prev = NULL;
+	if (*head == NULL)
+	{
+		new->prev = NULL;
+		*head = new;
+		return (new);
+	}
+	tmp = *head;
+	while (tmp->next != NULL)
+		tmp = tmp->next;
+	tmp->next = new;
+	new->prev = tmp;
+	return (new);
 }
