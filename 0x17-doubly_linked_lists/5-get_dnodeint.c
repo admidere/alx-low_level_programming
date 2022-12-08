@@ -9,32 +9,16 @@
 */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-    dlistint_t *tmp, *tmp2, *newp;
-    if (head == NULL)
-    return (NULL);
-    newp = malloc(sizeof(dlistint_t));
-    if (newp == NULL)
-    return (NULL);
-    newp->next = NULL;
-    tmp = head;
-    unsigned int i = 0;
-    while (i < index - 1)
-    {
-        tmp = tmp->next;
-        i++;
-    }
-    if (tmp->next == NULL)
-    {
-        newp->prev = tmp;
-        tmp->next = newp;
-    }
-    else
-    {
-        tmp2 = tmp->next;
-        tmp->next = newp;
-        newp->prev = tmp;
-        tmp2->prev = newp;
-        newp->next = tmp2;
-    }
-    return (newp);
+  unsigned int count = 0;
+  if (head == NULL)
+  return (NULL);
+  if (index == 0)
+  return (head);
+  while (count < index)
+  {
+      if (head->next == NULL)
+      return (NULL)
+      head = head->next;
+  }
+  return (head);
 }
