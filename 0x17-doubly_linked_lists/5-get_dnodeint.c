@@ -35,5 +35,5 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
         tmp2->prev = newp;
         newp->next = tmp2;
     }
-    return (head);
+    return (newp);
 }
