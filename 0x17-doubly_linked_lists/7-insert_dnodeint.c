@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- *insert_dnodeint_at_index- inserts node anywear.
+ *insert_dnodeint_at_index- inserts node anywhere.
  *@h: a ptr to ptr the listint_t list
  *@idx: is the index of the node, starting at 0
  *@n: the integer for the new node to contain
@@ -9,7 +9,7 @@
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 
-	dlistint_t *newnode, tmp;
+	dlistint_t *newnode, *tmp;
 	unsigned int i;
 
 	if (h == NULL)
