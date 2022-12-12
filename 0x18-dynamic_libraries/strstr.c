@@ -1,27 +1,30 @@
 #include "main.h"
+
 /**
-* _strstr - function
-* @haystack: parameter
-* @needle: parameter
-* Return: string
+* _strstr - function locate
+* @haystack: pointer to char
+* @needle: pointer to char
+* Return: 0
 */
+
 char *_strstr(char *haystack, char *needle)
 {
-	 int i;
-	 if (*needle == 0)
-	 return (haystack);
-	 while (*haystack)
-	 {
-	 	index = 0;
-		if (haystack[i] == needle[i])
+int index;
+
+	if (*needle == 0)
+		return (haystack);
+	while (*haystack)
+	{
+		index = 0;
+		if (haystack[index] == needle[index])
 		{
-			do{
-				if (needle[i + 1] == '\0')
-				 return (haystack);
-				 i++;
-			}while (haystack[i] == needle[i])
+			do {
+				if (needle[index + 1] == '\0')
+					return (haystack);
+				index++;
+			} while (haystack[index] == needle[index]);
 		}
 		haystack++;
-	 }
-	 return ('\0')
+	}
+	return ('\0');
 }
