@@ -8,7 +8,7 @@ def island_perimeter(grid):
     """
     Computers the length of the perimeter of an island.
     """
-   row = len(grid)
+    row = len(grid)
     colomun = len(grid[0])
 
     perimeter = 0
