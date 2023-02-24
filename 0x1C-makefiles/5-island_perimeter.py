@@ -8,16 +8,17 @@ def island_perimeter(grid):
     """
     Computers the length of the perimeter of an island.
     """
-    ret = 0
-    for y, row in enumerate(grid):
-        for x, cell in enumerate(row):
-            if cell == 1:
-                if y == 0 or grid[y - 1][x] == 0:
-                    ret += 1
-                if y == len(grid) - 1 or grid[y + 1][x] == 0:
-                    ret += 1
-                if x == 0 or grid[y][x - 1] == 0:
-                    ret += 1
-                if x == len(row) - 1 or grid[y][x + 1] == 0:
-                    ret += 1
-    return ret
+   row = len(grid)
+    colomun = len(grid[0])
+
+    perimeter = 0
+    conections = 0
+    for x in range(0, row):
+        for y in range(0, colomun):
+            if grid[x][y] == 1:
+                perimeter += 4
+                if x != 0 and grid[x - 1][y]:
+                    conections += 1
+                if y != 0 and grid[x][y - 1]:
+                    conections += 1
+    return perimeter - conections * 2
