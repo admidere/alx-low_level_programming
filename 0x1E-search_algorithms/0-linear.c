@@ -3,8 +3,8 @@
 #include "stdlib.h"
 
 /**
- * linear_search - implement searching each element untile found
- * desired value
+ * linear_search - implement searching each element 
+ * untile found desired value
  * @array: pointer at first element of list
  * @size: size of an array
  * @value: desired value
