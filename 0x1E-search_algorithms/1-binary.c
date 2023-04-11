@@ -1,6 +1,14 @@
 #include "search_algos.h"
 #include <stdio.h>
 
+/**
+ * binary_search - implement using binary serach
+ * @array: points the first indexof an array
+ * @size: size of an array
+ * @value: desired value
+ * Return: return index at desired value
+*/
+
 int binary_search(int *array, size_t size, int value)
 {
     int i;
