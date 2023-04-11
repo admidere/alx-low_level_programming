@@ -20,7 +20,7 @@ return (-1);
 }
 for (i = 0; i < size; i++)
 {
-printf("value checked array[%d] = [%d]\n", i, array[i]);
+printf("value checked array[%u] = [%d]\n", (unsigned int)i, array[i]);
 if (array[i] == value)
 {
 return (i);
