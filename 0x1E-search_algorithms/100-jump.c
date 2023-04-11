@@ -26,7 +26,8 @@ right += step;
 
 right = (right >= size) ? size - 1 : right;
 
-printf("Value found between indexes [%u] and [%u]\n", (unsigned int)left, (unsigned int)right);
+printf("Value found between indexes [%u] and [%u]\n",
+       (unsigned int)left, (unsigned int)right);
 
 while (left <= right)
 {
