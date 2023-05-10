@@ -2,10 +2,10 @@
 
 /**
  * binary_search -  value in a sorted array of integers
- * @array:  pointer to the first element of the array
+ * @array: pointer to the first element of the array
  * @size: size of an array
  * @value: value to search for
- * return: return the index where value is located
+ * Return: return the index where value is located
  * otherwise -1
 */
 
